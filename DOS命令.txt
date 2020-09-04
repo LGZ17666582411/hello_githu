@@ -1,0 +1,74 @@
+- ipconfig/all	查看当前电脑所有的网卡，找：以太网适配器 以太网/本地连接找到Mac地址（物理地址） 在MacOS电脑上，ifconfig
+
+- ping	用来测试与目标地址是否能够联通命令
+
+- cd	change directory 改变目录，使用方法
+	cd    目录名（文件夹名字）
+	cd..   回到上一级目录
+
+- 切换盘符	盘符名：列 D:
+
+- md:	创建目录（文件夹）的 全程（make directory）
+
+- rd	移除目录 reamove directory 默认只能删除空文件 如果要删除非空文件目录 那么需 rd 目录名 /s
+	在使用/s时 会弹出是否删除
+
+- dir	列出当前目录下的所有目录和文件，在MocOS系统中使用 ls 命令
+
+- del	删除文件，如果后面跟的事目录的名字，那么会删除当前目录下的文件（子文件下的文件不会动）
+
+- copy	拷贝文件，格式   copy原文件路径 新文件路径
+
+-move	移动文件，格式   move原文件路径 新文件路径
+
+-echo	创建一个文件，并且制定文件内容
+
+
+
+
+npm install -g pm2
+
+文件名
+pm2 start 
+
+创建文件夹
+mkdir 
+md
+
+删除文件夹
+rd
+删除文件
+del
+
+创建文件
+touch 
+cd.>a.txt
+copy nul a.txt
+
+修改文件
+vim  
+copy con 文件名
+
+保存
+：wq
+i
+
+将文件aaa复制到sss的目录    
+cp aaa/sss
+将文件aaa下的所以复制到sss的目录里
+cp aaa/*/sss
+
+重命名
+mv 旧名 新名  	
+
+项目名 删除
+rm -rf  
+
+查看内容
+cat 
+type
+
+清屏
+clear 
+screen
+cls
